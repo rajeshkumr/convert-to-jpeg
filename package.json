@@ -1,0 +1,48 @@
+{
+  "name": "convert-to-jpeg",
+  "version": "1.0.0",
+  "description": "Convert images (PNG, JPG, GIF, BMP, WebP, HEIC) to JPEG — works with both Node.js and Bun",
+  "main": "index.ts",
+  "module": "index.ts",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./convertor": "./utils/convertor.ts"
+  },
+  "scripts": {
+    "test": "bun test index.test.ts",
+    "test:node": "node --experimental-strip-types --experimental-vm-modules node_modules/jest-cli/bin/jest.js --testPathPattern=index.node.test.ts",
+    "test:bun": "bun test index.test.ts",
+    "test:all": "bun run test:bun && bun run test:node"
+  },
+  "engines": {
+    "node": ">=22.6.0",
+    "bun": ">=1.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "@jest/globals": "^30.4.1",
+    "jest": "^29.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "heic-decode": "latest",
+    "jpeg-js": "latest",
+    "sharp": "^0.34.5"
+  },
+  "keywords": [
+    "convertor",
+    "image-to-jpeg",
+    "image-conversion",
+    "heif",
+    "heic",
+    "convert",
+    "jpeg",
+    "jpg",
+    "png",
+    "image"
+  ],
+  "license": "MIT"
+}
