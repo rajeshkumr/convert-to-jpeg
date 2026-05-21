@@ -10,11 +10,11 @@ Works with both **Node.js** and **Bun**.
 
 | Runtime | Minimum version |
 |---------|----------------|
-| [Node.js](https://nodejs.org) | ≥ 12.0.0 |
+| [Node.js](https://nodejs.org) | ≥ 18.0.0 |
 | [Bun](https://bun.sh) | ≥ 1.0.0 |
 | TypeScript | ≥ 5.0 |
 
-> Node.js ≥ 22.6.0 is required for native TypeScript support via `--experimental-strip-types`. For older Node versions, compile with `tsc` first.
+> Node.js ≥ 18.0.0 is required for native TypeScript support via `--experimental-strip-types`. For older Node versions, compile with `tsc` first.
 
 ---
 
