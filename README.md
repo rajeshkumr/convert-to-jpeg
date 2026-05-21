@@ -10,7 +10,7 @@ Works with both **Node.js** and **Bun**.
 
 | Runtime | Minimum version |
 |---------|----------------|
-| [Node.js](https://nodejs.org) | ≥ 22.6.0 |
+| [Node.js](https://nodejs.org) | ≥ 12.0.0 |
 | [Bun](https://bun.sh) | ≥ 1.0.0 |
 | TypeScript | ≥ 5.0 |
 
